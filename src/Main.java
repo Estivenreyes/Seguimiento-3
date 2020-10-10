@@ -6,7 +6,6 @@ public class Main extends PApplet{
 		PApplet.main(Main.class.getName());
 	}
 	
-	String name;
 	
 	public void settings () {
 		size (800,600);
