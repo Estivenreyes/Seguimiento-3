@@ -31,8 +31,17 @@ public class Square extends Figure {
 			app.rotate(PI/rot);
 		}else {
 			app.rect(posX, posY, size, size);
-			
 		}
+		
+			count=count+1;
+			
+			if(size >= 1) {
+				
+				size *=0.82f;
+				
+				rotationSquare(posX, posY, size, count, rot);
+				
+			}
 		
 	}
 }
